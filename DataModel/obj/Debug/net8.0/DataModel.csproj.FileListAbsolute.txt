@@ -1,0 +1,14 @@
+E:\Programlama Dilleri\2026 Bahar\DataModel\bin\Debug\net8.0\DataModel.deps.json
+E:\Programlama Dilleri\2026 Bahar\DataModel\bin\Debug\net8.0\DataModel.runtimeconfig.json
+E:\Programlama Dilleri\2026 Bahar\DataModel\bin\Debug\net8.0\DataModel.dll
+E:\Programlama Dilleri\2026 Bahar\DataModel\bin\Debug\net8.0\DataModel.pdb
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.csproj.AssemblyReference.cache
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.AssemblyInfoInputs.cache
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.AssemblyInfo.cs
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.csproj.CoreCompileInputs.cache
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.dll
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\refint\DataModel.dll
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.pdb
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\DataModel.genruntimeconfig.cache
+E:\Programlama Dilleri\2026 Bahar\DataModel\obj\Debug\net8.0\ref\DataModel.dll
