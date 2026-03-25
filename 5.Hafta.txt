@@ -1,0 +1,7 @@
+DI Contaner Kullanmak
+İş yapan sınıfları servis kütüphanesi olarak hazırlamak
+Servislerin kullanıldığı yerde new ile türetmek yerine ServisCollection içinden nesnelere erişmek
+Servis nesnelerinin oluşturma işini tek bir merkezi fabrika sınıfına taşımak
+Böylec projeler arasındaki bağımlılıkları koparmak
+Sunum projesinin kütüphane ile sıkı bağımlılığını azaltmak, interfaceler üzerinden işlemleri yürütmek
+Dependency Injection kullanarak servis konteynerı oluşturmak
