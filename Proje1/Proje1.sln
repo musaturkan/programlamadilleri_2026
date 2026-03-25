@@ -4,17 +4,17 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proje1", "Proje1.csproj", "{D0A77E70-38A0-7B2C-1F64-14D30C11B0CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "..\DataModel\DataModel.csproj", "{E7626E4C-2D21-406D-8FD8-E0A19C4C9CF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{E7626E4C-2D21-406D-8FD8-E0A19C4C9CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek2_EfCoreSorgulama", "..\Ornek2_EfCoreSorgulama\Ornek2_EfCoreSorgulama.csproj", "{DC824879-B2F4-45DD-8ECE-52406486C70D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek2_EfCoreSorgulama", "Ornek2_EfCoreSorgulama\Ornek2_EfCoreSorgulama.csproj", "{DC824879-B2F4-45DD-8ECE-52406486C70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek3_Stack_Heap", "..\Ornek3_Stack_Heap\Ornek3_Stack_Heap.csproj", "{05DC3341-55FE-4BD1-9A2E-7D219F5A9ED3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek3_Stack_Heap", "Ornek3_Stack_Heap\Ornek3_Stack_Heap.csproj", "{05DC3341-55FE-4BD1-9A2E-7D219F5A9ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{65B178F1-C3A4-4E40-A392-C6BA1BA2916C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{65B178F1-C3A4-4E40-A392-C6BA1BA2916C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek4_Generic_Kavrami", "..\Ornek4_Generic_Kavrami\Ornek4_Generic_Kavrami.csproj", "{22017CA5-9723-461F-A917-C4FA504C904F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek4_Generic_Kavrami", "Ornek4_Generic_Kavrami\Ornek4_Generic_Kavrami.csproj", "{22017CA5-9723-461F-A917-C4FA504C904F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek_4_Library_Generic_Kavrami", "..\Ornek_4_Library_Generic_Kavrami\Ornek_4_Library_Generic_Kavrami.csproj", "{235D55FE-BD7A-482F-933F-D889CC6445B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek_4_Library_Generic_Kavrami", "Ornek_4_Library_Generic_Kavrami\Ornek_4_Library_Generic_Kavrami.csproj", "{235D55FE-BD7A-482F-933F-D889CC6445B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
