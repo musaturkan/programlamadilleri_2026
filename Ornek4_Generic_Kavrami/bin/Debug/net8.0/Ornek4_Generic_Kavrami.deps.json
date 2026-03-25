@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ornek4_Generic_Kavrami/1.0.0": {
+        "dependencies": {
+          "Ornek_4_Library_Generic_Kavrami": "1.0.0"
+        },
+        "runtime": {
+          "Ornek4_Generic_Kavrami.dll": {}
+        }
+      },
+      "Ornek_4_Library_Generic_Kavrami/1.0.0": {
+        "runtime": {
+          "Ornek_4_Library_Generic_Kavrami.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ornek4_Generic_Kavrami/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ornek_4_Library_Generic_Kavrami/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
