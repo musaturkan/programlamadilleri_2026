@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programlama Dilleri\\2026 Bahar\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj": {}
+    "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj": {}
   },
   "projects": {
     "E:\\Programlama Dilleri\\2026 Bahar\\DataModel\\DataModel.csproj": {
@@ -52,21 +52,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.24, )"
+              "version": "[8.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.24, )"
+              "version": "[8.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.24, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.25, )"
             }
           },
           "imports": [
@@ -89,14 +85,14 @@
         }
       }
     },
-    "E:\\Programlama Dilleri\\2026 Bahar\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj": {
+    "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programlama Dilleri\\2026 Bahar\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj",
+        "projectUniqueName": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj",
         "projectName": "Ornek2_EfCoreSorgulama",
-        "projectPath": "E:\\Programlama Dilleri\\2026 Bahar\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj",
+        "projectPath": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Ornek2_EfCoreSorgulama\\Ornek2_EfCoreSorgulama.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Programlama Dilleri\\2026 Bahar\\Ornek2_EfCoreSorgulama\\obj\\",
+        "outputPath": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Ornek2_EfCoreSorgulama\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

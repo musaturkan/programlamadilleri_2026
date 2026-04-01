@@ -2720,8 +2720,8 @@
     },
     "DataModel/1.0.0": {
       "type": "project",
-      "path": "../DataModel/DataModel.csproj",
-      "msbuildProject": "../DataModel/DataModel.csproj"
+      "path": "../../DataModel/DataModel.csproj",
+      "msbuildProject": "../../DataModel/DataModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2736,11 +2736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programlama Dilleri\\2026 Bahar\\Services\\Services.csproj",
+      "projectUniqueName": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "E:\\Programlama Dilleri\\2026 Bahar\\Services\\Services.csproj",
+      "projectPath": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\Programlama Dilleri\\2026 Bahar\\Services\\obj\\",
+      "outputPath": "E:\\Programlama Dilleri\\2026 Bahar\\Proje1\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

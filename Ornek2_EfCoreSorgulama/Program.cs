@@ -1,6 +1,7 @@
 ﻿using DataModel;
 using Microsoft.EntityFrameworkCore;
 
+namespace Ornek2_EfCoreSorgulama;
 internal class Program
 {
     private static void Main(string[] args)
@@ -47,6 +48,7 @@ internal class Program
     static List<Urun> UrunListeGetir()
     {
         MarketContext dbModel = new MarketContext();
+        //var liste = dbModel.Urun.ToList(); //Bu şekilde sadece ürün bilgileri gelir, marka bilgisi gelmez
         var urunListesi = dbModel.Urun.Include("Marka").ToList();
         return urunListesi;
     }
