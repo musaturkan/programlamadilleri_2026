@@ -1,0 +1,15 @@
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\bin\Debug\net8.0\Ornek3_Stack_Heap.exe
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\bin\Debug\net8.0\Ornek3_Stack_Heap.deps.json
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\bin\Debug\net8.0\Ornek3_Stack_Heap.runtimeconfig.json
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\bin\Debug\net8.0\Ornek3_Stack_Heap.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\bin\Debug\net8.0\Ornek3_Stack_Heap.pdb
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.AssemblyInfoInputs.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.AssemblyInfo.cs
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.csproj.CoreCompileInputs.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.sourcelink.json
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\refint\Ornek3_Stack_Heap.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.pdb
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\Ornek3_Stack_Heap.genruntimeconfig.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek3_Stack_Heap\obj\Debug\net8.0\ref\Ornek3_Stack_Heap.dll
