@@ -25,8 +25,11 @@ namespace Ornek_4_Library_Generic_Kavrami.GenericDataModel
         }
 
         public IEnumerable<T> GetAllEntities() { 
-            model.Set<T>().ToList();
-            return new List<T>();
+            var liste  = model.Set<T>().ToList();
+        
+            //model.Kullanici.ToList();
+
+            return liste;
         }
 
 

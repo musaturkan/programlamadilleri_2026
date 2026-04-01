@@ -60,6 +60,7 @@ internal class Program
         //var metinler = dataService2.Listele();
 
         DataService<Kullanici> dataService3 = new DataService<Kullanici>();
+
         dataService3.Add(new Kullanici { Id = 1, Ad = "Ahmet", Soyad = "Yılmaz" });
         dataService3.Add(new Kullanici { Id = 2, Ad = "Ayşe", Soyad = "Kara" });
         dataService3.Add(new Kullanici { Id = 3, Ad = "Mehmet", Soyad = "Demir" });

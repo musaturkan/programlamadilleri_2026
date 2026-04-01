@@ -15,6 +15,8 @@ public class MarketContext:DbContext
 {
     public DbSet<Urun> Urun { get; set; }
     public DbSet<Marka> Marka { get; set; }
+    public DbSet<Siparis> Siparis { get; set; }
+    public DbSet<Kullanici> Kullanici { get; set; }
 
     /// <summary>
     /// Bağlantı cümleciği bildirimi bu metot içinde yapılabilir.

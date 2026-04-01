@@ -8,12 +8,17 @@ using System.Threading.Tasks;
 
 namespace DataModel;
 
-[Table("Marka")]
-public class Marka
+public class Siparis
 {
     [Key]
     public int Id { get; set; }
-    public string? Ad { get; set; }
-    public virtual ICollection<Urun>? Urun { get; set; } //Navigation property
-}
+    public int? KullaniciId { get; set; }
+    public int? UrunId { get; set; }
+    public DateTime Tarih { get; set; }
 
+    [ForeignKey("UrunId")]
+    public Urun? Urun { get; set; }
+
+    [ForeignKey("KullaniciId")]
+    public Kullanici? Kullanici { get; set; }
+}
