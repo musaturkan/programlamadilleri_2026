@@ -66,3 +66,12 @@ E:\Programlama Dilleri\2026 Bahar\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\refint
 E:\Programlama Dilleri\2026 Bahar\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.pdb
 E:\Programlama Dilleri\2026 Bahar\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.genruntimeconfig.cache
 E:\Programlama Dilleri\2026 Bahar\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\ref\Ornek2_EfCoreSorgulama.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.csproj.AssemblyReference.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.AssemblyInfoInputs.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.AssemblyInfo.cs
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.csproj.CoreCompileInputs.cache
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.sourcelink.json
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\refint\Ornek2_EfCoreSorgulama.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek2_EfCoreSorgulama\obj\Debug\net8.0\Ornek2_EfCoreSorgulama.pdb

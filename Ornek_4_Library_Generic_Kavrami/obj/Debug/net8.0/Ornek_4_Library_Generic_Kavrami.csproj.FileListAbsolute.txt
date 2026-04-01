@@ -22,3 +22,4 @@ E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek_4_Library_Generic_Kavrami\obj\Deb
 E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek_4_Library_Generic_Kavrami\obj\Debug\net8.0\refint\Ornek_4_Library_Generic_Kavrami.dll
 E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek_4_Library_Generic_Kavrami\obj\Debug\net8.0\Ornek_4_Library_Generic_Kavrami.pdb
 E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek_4_Library_Generic_Kavrami\obj\Debug\net8.0\ref\Ornek_4_Library_Generic_Kavrami.dll
+E:\Programlama Dilleri\2026 Bahar\Proje1\Ornek_4_Library_Generic_Kavrami\obj\Debug\net8.0\Ornek_4_Library_Generic_Kavrami.csproj.AssemblyReference.cache
