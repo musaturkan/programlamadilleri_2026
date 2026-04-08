@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\..\Masaüstü Uygulama Geliştirme C#\2025\Projeler\MYO_OrnekProjeler\Lokanta2\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>..\..\..\Masaüstü Uygulama Geliştirme C#\2025\Projeler\MYO_OrnekProjeler\Lokanta2\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>..\..\..\Masaüstü Uygulama Geliştirme C#\2025\Projeler\MYO_OrnekProjeler\Lokanta2\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>..\..\..\Masaüstü Uygulama Geliştirme C#\2025\Projeler\MYO_OrnekProjeler\Lokanta2\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Server">
+      <HintPath>..\..\..\Masaüstü Uygulama Geliştirme C#\2025\Projeler\MYO_OrnekProjeler\Lokanta2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

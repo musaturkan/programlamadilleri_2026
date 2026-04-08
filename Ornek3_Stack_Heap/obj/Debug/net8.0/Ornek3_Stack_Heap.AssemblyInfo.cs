@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ornek3_Stack_Heap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b125a30e4108bfdc2a1765b9d392b000dc7b391")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4578027b154aef4169a38841daa925727fafef26")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ornek3_Stack_Heap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ornek3_Stack_Heap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
