@@ -14,15 +14,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek4_Generic_Kavrami", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek_4_Library_Generic_Kavrami", "Ornek_4_Library_Generic_Kavrami\Ornek_4_Library_Generic_Kavrami.csproj", "{235D55FE-BD7A-482F-933F-D889CC6445B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "..\DataModel\DataModel.csproj", "{6B81D339-78A9-44FA-B095-7FABB0239B62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{6B81D339-78A9-44FA-B095-7FABB0239B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek5_Delegate_Event", "..\Ornek5_Delegate_Event\Ornek5_Delegate_Event.csproj", "{06F5D826-16A6-4D79-9D68-86465479C1BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek5_Delegate_Event", "Ornek5_Delegate_Event\Ornek5_Delegate_Event.csproj", "{06F5D826-16A6-4D79-9D68-86465479C1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek5_Delegate_Event_Library", "..\Ornek5_Delegate_Event_Library\Ornek5_Delegate_Event_Library.csproj", "{684151DD-4DA5-4E75-9769-4FD1C68FAAA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek5_Delegate_Event_Library", "Ornek5_Delegate_Event_Library\Ornek5_Delegate_Event_Library.csproj", "{684151DD-4DA5-4E75-9769-4FD1C68FAAA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek6_Excepiton_Handling", "..\Ornek6_Excepiton_Handling\Ornek6_Excepiton_Handling.csproj", "{79DA58DB-2CF2-40FB-AA64-D51463081BFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek6_Excepiton_Handling", "Ornek6_Excepiton_Handling\Ornek6_Excepiton_Handling.csproj", "{79DA58DB-2CF2-40FB-AA64-D51463081BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek6_GlobalExceptionHandler", "..\Ornek6_GlobalExceptionHandler\Ornek6_GlobalExceptionHandler.csproj", "{A145D36C-2BFC-45B9-AAC3-33A8C3C2E2B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek6_GlobalExceptionHandler", "Ornek6_GlobalExceptionHandler\Ornek6_GlobalExceptionHandler.csproj", "{A145D36C-2BFC-45B9-AAC3-33A8C3C2E2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
