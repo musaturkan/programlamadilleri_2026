@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ornek2_EfCoreSorgulama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acdd63e3eac4b70215471325fcd49f7aebcb5094")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60516a6c4f2bab39e128f346a50dd5ac589eff48")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ornek2_EfCoreSorgulama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ornek2_EfCoreSorgulama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

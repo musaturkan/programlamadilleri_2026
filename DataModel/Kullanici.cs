@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataModel
 {
-    public class Kullanici
+    public partial class Kullanici
     {
         [Key]
         public int Id { get; set; }
