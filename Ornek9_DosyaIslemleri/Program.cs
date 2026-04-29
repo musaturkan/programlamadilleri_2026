@@ -5,6 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        LogYaz("Uygulama başlatıldı.");
         ///Dosya İşlemleri
         ///Dosyaya veri yazmak
         ///Dosyadan veri okumak
@@ -129,5 +130,20 @@ internal class Program
         dosyaBilgi.Delete();
         ///Silme işlemi yaparken FileInfo sınıfının Delete() metodu kullanılır.
         ///File.Delete("ornek_kopya.txt");
+    }
+
+    public static void LogYaz(string mesaj)
+    {
+        ///Basit loglama işlemi yapmak için dosya işlemleri kullanılabilir.
+        ///Log dosyası, uygulamanın çalışması sırasında oluşan olayları kaydetmek için kullanılır.
+        ///Log dosyasına yazarken, genellikle tarih ve saat bilgisi de eklenir.
+        string logMesaji = $"{DateTime.Now}: {mesaj}";
+        using (StreamWriter yazici = new StreamWriter("log.txt", true))
+        {
+            yazici.WriteLine(logMesaji);
+            yazici.Close();
+        }
+        ///File.WriteAllText("log.txt",logMesaji);
+        ///File.AppendAllText("log.txt", logMesaji + Environment.NewLine);
     }
 }
