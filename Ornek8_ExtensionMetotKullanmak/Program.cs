@@ -127,4 +127,9 @@ public static class GenelExtensions
             Console.WriteLine(item);
         }
     }
+
+    public static decimal OndalikKismiAl(this decimal sayi)
+    {
+        return sayi - Math.Floor(sayi);
+    }
 }
