@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek8_ExtensionMetotKullan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek9_DosyaIslemleri", "Ornek9_DosyaIslemleri\Ornek9_DosyaIslemleri.csproj", "{03B50827-1316-480A-BE72-D5BAB7C29C30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek9_2JsonDosyalarlaCalismak", "Ornek9_2JsonDosyalarlaCalismak\Ornek9_2JsonDosyalarlaCalismak.csproj", "{EAC7EFB9-D87F-45E4-B2FD-B01A574B3EDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{03B50827-1316-480A-BE72-D5BAB7C29C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B50827-1316-480A-BE72-D5BAB7C29C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B50827-1316-480A-BE72-D5BAB7C29C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC7EFB9-D87F-45E4-B2FD-B01A574B3EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7EFB9-D87F-45E4-B2FD-B01A574B3EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7EFB9-D87F-45E4-B2FD-B01A574B3EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7EFB9-D87F-45E4-B2FD-B01A574B3EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

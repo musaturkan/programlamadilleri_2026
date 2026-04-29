@@ -3,6 +3,14 @@ namespace Ornek9_DosyaIslemleri;
 using System.IO;
 internal class Program
 {
+    ///Dosya işlemleri yaparken dikkat edilmesi gereken bazı noktalar vardır:
+    ///Dosya işlemleri sırasında dosyanın açık kalmaması önemlidir. 
+    ///Dosya işlemi tamamlandıktan sonra dosya kapatılmalıdır.
+    ///Stream nesneleririn using bloğu içinde kullanılması, dosyanın otomatik olarak kapatılmasını sağlar 
+    ///ve kaynak sızıntısını önler.
+    ///Dosya yolunun doğru yazıldığından emin olunmalıdır. Yanlış dosya yolu, dosyanın bulunamamasına veya oluşturulamamasına neden olabilir.
+    ///Dosya işlemleri sırasında oluşabilecek hatalar için try-catch blokları kullanılmalıdır.
+    ///
     private static void Main(string[] args)
     {
         LogYaz("Uygulama başlatıldı.");
@@ -30,9 +38,17 @@ internal class Program
         //DosyaYaz("Dosya işlemleri çok kullanışlıdır.");
 
         //DosyaOku();
-        DosyaYazFile("Birinci mesaj");
-        DosyaYazFile("İkinci mesaj");
-        DosyaYazFile("Üçüncü mesaj");
+        try
+        {
+            DosyaYazFile("Birinci mesaj");
+            DosyaYazFile("İkinci mesaj");
+            DosyaYazFile("Üçüncü mesaj");
+        }
+        catch (Exception)
+        {
+            LogYaz("Dosya yazma işlemi sırasında bir hata oluştu.");
+        }
+
     }
 
     public static void DosyaYaz(string mesaj)
