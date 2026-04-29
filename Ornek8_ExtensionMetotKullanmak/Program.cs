@@ -26,6 +26,7 @@ public class Program
         ///2- Static bir metot olmalıdır.
         ///3- İlk parametre this anahtar kelimesi ile belirtilmelidir.
         ///this anahtar kelimesi ile belirtilen parametre, genişletilen sınıfın bir örneğidir.
+        ///extension metot yeni parametreler alabilir, ancak ilk parametre genişletilen sınıfın bir örneği olmalıdır.
         double sayi2 = 3.14;
         //sayi2.Yazdir();
         DataModel.Kullanici kullanici = new DataModel.Kullanici { Id = 1, Ad = "Ahmet", Soyad = "Yılmaz" };
@@ -43,7 +44,8 @@ public class Program
         kullanicilar.Yazdir();
 
         kullanici.ToDTO();
-
+      
+        
         KullaniciDTO kullaniciDTO = kullanici.ToDTO();
         kullaniciDTO.ToEntity();
 
