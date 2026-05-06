@@ -19,6 +19,7 @@ internal class Program
         ///EPPlus: Excel dosyalarını oluşturmak, okumak ve düzenlemek için kullanılan bir başka popüler kütüphanedir.
         ///EPPlus, Excelde grafik oluşturma, hücre stilleri, formüller ve diğer gelişmiş özellikler gibi birçok işlevi destekler.
         ExcelDosyasindanNotlariOkuma();
+        
     }
 
     public static void ExcelDosyaOlusturma()
