@@ -1,0 +1,74 @@
+DI Contaner Kullanmak
+İş yapan sınıfları servis kütüphanesi olarak hazırlamak
+Servislerin kullanıldığı yerde new ile türetmek yerine ServisCollection içinden nesnelere erişmek
+Servis nesnelerinin oluşturma işini tek bir merkezi fabrika sınıfına taşımak
+Böylec projeler arasındaki bağımlılıkları koparmak
+Sunum projesinin kütüphane ile sıkı bağımlılığını azaltmak, interfaceler üzerinden işlemleri yürütmek
+Dependency Injection kullanarak servis konteynerı oluşturmak
+Generic metot tanımlamak
+Generik metotları kullanmak
+Generic List sınıfını kullanarak liste oluştumak
+Dictionary nesnesi ile generic tanımlama yoluyla veri taşımak Anahtar-Değer  Key-Value değerlerini taşımak
+Generic sınıf tanımalama
+Generic sınıfı kullanmak
+EntiyModel nesnesini generik sınıf ile kullanarak dinamik entity ekleme, silme, sorgulama işlemleri yapmak
+
+6. Hafta 
+Delegate ve event kavramı, genel tekrar
+Delegate, bir fonksiyonun, bir metodun bir değişkene atanabilmesini sağlar. Daha sonra o değişkeni metot gibi çağırabiliriz.
+7. Hafta
+Delegate tanımlanırken hangi türden metotları temsil edebileceği tanımlanır.
+Delegate ve Event kavramlarının örnekleri Func ve Action metotları
+Action anahatar kelimesi ile hazır delegate tanımı yapılabilir. Böylece event tanımlama işlemi tek satır olarak kısalır.
+Func anahtar kelimesi de hazır delegate tanımı yapmayı sağlar. Geri değer döndüren metotlar Func ile tanımlanır
+Delegate: Metot referansıdır
+Event:Olay tetikleme yöntemidir
+Event bağımlılığı azaltır. Sınıflar birbirine bağımlı olmadan haberleşir.
+
+    ///Hata olduğunda program çökmesin diye exception handling mekanizması kullanılırı
+    ///Hata yakalamak ve işlemek için try-catch blokları kullanılır
+    ///Böylece program çökmüyor ve kullanıcıya anlamlı bir hata mesajı gösterilebilir
+    ///Bir cath bloğu tüm hatalar için tanımlanabilir veya spesifik hatalar için ayrı ayrı catch blokları oluşturulabilir
+    ///NullReferenceExcepiton, IndexOutOfRangeException, DividedByZeroException gibi özel hata durumlarında çalışacak şekilde planlanabilir
+    ///Kendimiz özel hata mesajları oluşturabiliriz ve kullanıcıya daha açıklayıcı bilgiler sunabiliriz
+    ///Özel hata mesajı fırlatmak için throw anahtar kelimesi kullanılır ve bir Exception nesnesi oluşturulur
+    ///throw new Exception("Özel hata mesajı"); şeklinde kullanılır
+    ///Exception kullanılırıken yapılammaması gerekenler:
+    ///Her şeyi execption ile yakalamak uygun olmayabilir, 
+    ///bu nedenle spesifik hatalar için ayrı catch blokları oluşturmak daha iyi bir uygulamadır
+    ///Boş catch blokları kullanmak, hataların nedenini anlamayı zorlaştırabilir 
+    ///ve hataların doğru şekilde ele alınmasını engelleyebilir
+    ///Hata yakalandığında mutlakta bir şeyler yapılmalı, örneğin hata mesajı gösterilmeli veya loglanmalı, aksi takdirde hataların nedenini anlamak zorlaşır
+8.Hafta
+C# Dilinde Koleksiyonlar
+Dizi ve Koleksiyon farkı
+Neden koleksiyon kullanırız
+En çok kullanılan koleksiyonlar
+List, Dictionary, Queue, Stack, HashSet
+Extension Metot Yazmak
+
+9. Hafta Yapılacaklar
+Dosya İşlemleri
+Dosya okumak
+Dosya yazmak
+Json dosyalarla çalışmak
+Json -> Nesne dönüşümü
+Nesne -> Json dönüşümü
+
+10. Hafta
+CSV dosyalarıyla çalışmak
+CSVHelper kütüphanesi ile csv dosyalarına okuma yazma yapmak.
+CSV dosyasından okunan tarih alanını formatlamak
+Örnek proje uygulaması yapılacak.
+Excel dosyalarıyla çalışmak
+ClosedXML kütüphanesi kullanarak excel dosya işlemlerni yapmak
+EPPlus kütüphanesi kullanımını öğrenmek sizlere kalmıştır.
+
+11. Hafta
+Web API tüketmek
+Json veri döndüren apilerle çalışma
+
+
+
+
+
