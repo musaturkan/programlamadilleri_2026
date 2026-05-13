@@ -67,7 +67,15 @@ EPPlus kütüphanesi kullanımını öğrenmek sizlere kalmıştır.
 11. Hafta
 Web API tüketmek
 Json veri döndüren apilerle çalışma
+Asenkron Programlama
+Thread Nedir?
+Task Nedir?
+async ve await Anahtar Kelimeleri
+Senkron ve Asenkron Farkı Nedir?
+Uygulamalarda neden önemlidir?
+Web API lere asenkron çağrı yapmak
 
+12. Hafta
 
 
 
