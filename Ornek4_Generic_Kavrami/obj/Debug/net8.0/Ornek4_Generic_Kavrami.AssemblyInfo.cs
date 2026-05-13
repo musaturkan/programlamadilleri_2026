@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ornek4_Generic_Kavrami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3615ecfb5ee38fac0f48b29093292422acf08f86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+037bfb3fa68c01535d8ae4534eb5b6874c422867")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ornek4_Generic_Kavrami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ornek4_Generic_Kavrami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
