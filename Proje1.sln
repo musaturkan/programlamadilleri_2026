@@ -38,9 +38,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek10_2_excel_dosya_islem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek11_AsenkronProgramlama", "Ornek11_AsenkronProgramlama\Ornek11_AsenkronProgramlama.csproj", "{3C848216-D06F-4E67-8487-CD5350ABE8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek11_AsenkronProgramlama2", "..\Ornek11_AsenkronProgramlama2\Ornek11_AsenkronProgramlama2.csproj", "{07055FF3-FE45-49AB-9516-4940887D3DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek11_AsenkronProgramlama2", "Ornek11_AsenkronProgramlama2\Ornek11_AsenkronProgramlama2.csproj", "{07055FF3-FE45-49AB-9516-4940887D3DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek11_AsenkronProgramlama3", "..\Ornek11_AsenkronProgramlama3\Ornek11_AsenkronProgramlama3.csproj", "{33933A49-3280-452F-ACB4-81CD1ABD828D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek11_AsenkronProgramlama3", "Ornek11_AsenkronProgramlama3\Ornek11_AsenkronProgramlama3.csproj", "{33933A49-3280-452F-ACB4-81CD1ABD828D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
