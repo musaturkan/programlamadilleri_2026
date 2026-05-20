@@ -30,6 +30,7 @@ internal class Program
                     Console.WriteLine("Bu birden fazla satır içeren lambda ifadesidir.");
                     Console.WriteLine("Lambda ifadeleri anonim metotlar olarak da adlandırılır.");
                 };
+        a();
 
         Arac arac = new Arac { Marka = "Toyota", Model = "Corolla", Yil = 2020 };
         arac.HareketEvent += HareketOlayiMetodu;

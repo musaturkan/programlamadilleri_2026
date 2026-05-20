@@ -58,6 +58,19 @@ public class Program
         ///6- Extension metotlar, var olan sınıfın bir örneği üzerinden çağrılırlar, yani nesne yönelimli programlamaya uygun bir şekilde kullanılırlar.
         ///7- Çok fazla extension metot yazmak, kodun karmaşıklaşmasına neden olabilir, bu yüzden dikkatli kullanılmalıdır.
     }
+
+    public static bool IsPrime(int n)
+    {
+        if (n <= 1) return false;
+        if (n == 2) return true;
+        if (n % 2 == 0) return false;
+        int limit = (int)Math.Floor(Math.Sqrt(n));
+        for (int i = 3; i <= limit; i += 2)
+        {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
 }
 
 public class KullaniciDTO
