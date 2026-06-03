@@ -101,6 +101,43 @@ Ornek11_AsenkronProgramlama3/
   Ornek11_AsenkronProgramlama3.AssemblyInfo.cs
   Ornek11_AsenkronProgramlama3.GlobalUsings.g.cs
  Program.cs
+Ornek12_1_Ornekler/
+ EmailGonder.cs
+ IMesaj.cs
+ obj/Debug/net8.0/
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Ornek12_1_Ornekler.AssemblyInfo.cs
+  Ornek12_1_Ornekler.GlobalUsings.g.cs
+ Program.cs
+Ornek12_2_Ornekler/
+ EmailGonder.cs
+ IMesaj.cs
+ KullaniciYonetim.cs
+ obj/Debug/net8.0/
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Ornek12_2_Ornekler.AssemblyInfo.cs
+  Ornek12_2_Ornekler.GlobalUsings.g.cs
+ Program.cs
+Ornek12_3_Ornekler/
+ DTO/KullaniciDto.cs
+ DtoEntityDonusum.cs
+ EmailGonder.cs
+ Entity/Kullanici.cs
+ IMesaj.cs
+ MesajIslem.cs
+ obj/Debug/net8.0/
+  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+  Ornek12_3_Ornekler.AssemblyInfo.cs
+  Ornek12_3_Ornekler.GlobalUsings.g.cs
+ Program.cs
+ SmsGonder.cs
+Ornek12_4_Ornekler/obj/Debug/net8.0/
+ .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ Ornek12_4_Ornekler.AssemblyInfo.cs
+ Ornek12_4_Ornekler.GlobalUsings.g.cs
+Ornek12_4_Ornekler/
+ Ogrenci.cs
+ Program.cs
 Ornek2_EfCoreSorgulama/obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
  Ornek2_EfCoreSorgulama.AssemblyInfo.cs
@@ -375,7 +412,10 @@ ServisKutuphanesi/
  System.Xml.XPath.dll
  System.Xml.XPath.XDocument.dll
  WindowsBase.dll
-<NUGET>/csvhelper/33.1.0/lib/net9.0/CsvHelper.dll
+<NUGET>/
+ csvhelper/33.1.0/lib/net9.0/CsvHelper.dll
+ microsoft.extensions.dependencyinjection.abstractions/8.0.2/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.dependencyinjection/8.0.1/lib/net8.0/Microsoft.Extensions.DependencyInjection.dll
 
 [analyzerReferences]
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/9.0.13/analyzers/dotnet/cs/
