@@ -1,4 +1,6 @@
-﻿namespace Ornek_13_13_SolidPrenispleri;
+﻿using Ornek_13_3_SolidPrensipleri;
+
+namespace Ornek_13_13_SolidPrenispleri;
 internal class Program
 {
     private static void Main(string[] args)
@@ -21,7 +23,20 @@ internal class Program
         //s.Uc();
         //Serce serce = new Kus();
         // Hata: Kus sınıfı Serce sınıfının yerine geçemez
+        TestMetot(new Diktortgen());
+        TestMetot(new Kare());
+
     }
+
+
+    public static void TestMetot(Diktortgen diktortgen)
+    {
+        diktortgen.Genislik = 5;
+        diktortgen.Yukseklik = 10;
+        int alan = diktortgen.Genislik * diktortgen.Yukseklik;
+        Console.WriteLine($"Dikdörtgenin alanı: {alan}");
+    }
+
 }
 ///Liskov Substitution Principle (LSP) - Liskov Yerine Geçme Prensibi
 ///Türeyen sınıfın nesneleri, türetildiği sınıfın nesneleriyle yer değiştirebiliyorsa, 
