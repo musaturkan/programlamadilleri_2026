@@ -21,6 +21,6 @@ namespace DataModel
         public Yemek? Yemek { get; set; }
 
         [ForeignKey("MasaId")]
-        public int Masa { get; set; }
+        public Masa? Masa { get; set; }
     }
 }
