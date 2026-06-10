@@ -2,7 +2,7 @@ DI Contaner Kullanmak
 İş yapan sınıfları servis kütüphanesi olarak hazırlamak
 Servislerin kullanıldığı yerde new ile türetmek yerine ServisCollection içinden nesnelere erişmek
 Servis nesnelerinin oluşturma işini tek bir merkezi fabrika sınıfına taşımak
-Böylec projeler arasındaki bağımlılıkları koparmak
+Böylece projeler arasındaki bağımlılıkları koparmak
 Sunum projesinin kütüphane ile sıkı bağımlılığını azaltmak, interfaceler üzerinden işlemleri yürütmek
 Dependency Injection kullanarak servis konteynerı oluşturmak
 Generic metot tanımlamak
@@ -63,10 +63,10 @@ CSV dosyasından okunan tarih alanını formatlamak
 Excel dosyalarıyla çalışmak
 ClosedXML kütüphanesi kullanarak excel dosya işlemlerni yapmak
 EPPlus kütüphanesi kullanımını öğrenmek sizlere kalmıştır.
-
-11. Hafta
 Web API tüketmek
 Json veri döndüren apilerle çalışma
+
+11. Hafta
 Asenkron Programlama
 Thread Nedir?
 Task Nedir?
@@ -75,8 +75,53 @@ Senkron ve Asenkron Farkı Nedir?
 Uygulamalarda neden önemlidir?
 Web API lere asenkron çağrı yapmak
 
+Örnek Uygulama
+Aşağıdaki servis ile çalışacak bir console uygulaması yazılacaktır.
+https://jsonplaceholder.typicode.com/todos/50
+Tüm görev listesini döndüren servis adresi şöyledir:
+https://jsonplaceholder.typicode.com/todos
+Bu servislere talepte bulunan bir sınıf yazınız. Tüm görevleri döndüren bir asenkron metot yazınız.
+Sadece id değeri verilen görevi döndüren bir metot yazınız
+Api sınıfına ait metotlar asenkron olacaktır.
+json datası dto nesnesi ile ele alınacaktır
+Oluşturdğunuz api sınıfını Main metodu içinde çağırıp sonuçları ekrana yazdırınız.
+
 12. Hafta
+Konu tekrarı ve önemli başlıklar incelendi
+13. Hafta
+SOLID Prensipleri
+Bakımı kolay, genişletilebilir, test edilebilir yazılımlar geliştirilmesi için
+tecrübelerle ortaya koyulmuş kurallardır. Bu kurallar bir söz dizimi değildir. 
+Programlama dilinin komutları bu kurallar olmasa da çalışır. Ancak proje büyüdükçe bakımı zorlaşır.
+Takım çalışması ile geliştirme yapılan projelerde görev dağılımı zorlaşır,
+projenin anlaşılırlığı azalır, standartlara uygun olamayan kodlar ortaya çıkabilir.
+
+S: Single Responsibilty Princible - Tek Sorumluluk Prensibi
+O: Open Closed Princible - Açık Kapalı Prensibi
+L: Liskov Substiton Princible - Türetilmiş sınıf, türeyen sınıfın yerine kullanılabilmelidir
+I: Interface Segregation Princible - Bir sınıf kullanmadığı metotları zorla uygulamamalıdır
+D: Dependency Inversion Princible - Bağımlılıkların tersine çevrilmesi prensibi
 
 
+SRP: Bir sınıf = Bir görev
+OCP: Mevcut kodu değiştirme, genişlet
+LSP: Alt sınıf üst sınıfın yerine geçebilmeli
+ISP: Büyük ve kalabalık interfaceler yerine daha küçük ve kategorili interface tanımları
+DIP: Sınıflar arasında bağımlılıklar soyut olmalıdır, yani interface ile olmalıdır
 
+Örnek Uygulama Sorusu:
+Bir ödeme sisteminde aşağıdaki işlemler yapılacaktır:
+Siparişi kaydetme
+Mail gönderme
+SMS gönderme,
+İz kayıtlarını tutma (log kaytılar)
+Bu işlemlere sahip bir projeyi SOLID prensiplerine uygun olarak tasarlayınız
+Okuma tavsiyeleri:
+https://medium.com/@keremmican/solid-prensipleri-nesne-y%C3%B6nelimli-programlamada-temel-i%CC%87lkeler-40458462bba3
+https://github.com/omereryilmaz/SOLIDPrinciplesInCSharp
 
+https://www-digitalocean-com.translate.goog/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc&_x_tr_hist=true
+
+Çalışma Ödevi:
+c# dilinde enum tanımı nedir? nasıl yapılır? ne işe yarar?
+c# dilinde struct nedir? ne işe yarar?

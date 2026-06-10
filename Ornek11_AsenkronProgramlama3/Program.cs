@@ -11,15 +11,21 @@ using Ornek11_AsenkronProgramlama3;
 ///Bu metot servisten tek bir görevi çekip bilgilerini gösterecektir.
 ///Tüm görevleri döndüren metot parametresiz olacaktır
 ///Servisten gelen tüm görevleri liste olarak döndürecktir.
-GorevApi api=new GorevApi();
-Task<GorevDTO> gorev = api.GorevGetir(125);
-Task<List<GorevDTO>> liste = api.GorevListesi();
-Task.WaitAll(gorev, liste);
-
-Console.WriteLine($"Gorev başlık:{gorev.Result.title}");
-
-var todosListesi = await liste;
-foreach (var yapilanIs in todosListesi)
+internal class Program
 {
-    Console.WriteLine($"Görev id:{yapilanIs.id} KullanıcıId:{yapilanIs.userId} İş başlığı: {yapilanIs.title} Bitirildi mi:{yapilanIs.compledet}");
+    private static async Task Main(string[] args)
+    {
+        GorevApi api = new GorevApi();
+        Task<GorevDTO> gorev = api.GorevGetir(125);
+        Task<List<GorevDTO>> liste = api.GorevListesi();
+        Task.WaitAll(gorev, liste);
+
+        Console.WriteLine($"Gorev başlık:{gorev.Result.title}");
+
+        var todosListesi = await liste;
+        foreach (var yapilanIs in todosListesi)
+        {
+            Console.WriteLine($"Görev id:{yapilanIs.id} KullanıcıId:{yapilanIs.userId} İş başlığı: {yapilanIs.title} Bitirildi mi:{yapilanIs.compledet}");
+        }
+    }
 }
